@@ -28,7 +28,7 @@ public class MainActivity8 extends AppCompatActivity {
     EditText Eventid;
     Button del;
     String eveid;
-    String url="https://bhargava63.000webhostapp.com/delevent.php";
+    String url="here you have to paste ur URL from where you are retrieving it..."
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
