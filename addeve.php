@@ -12,12 +12,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Prepare and bind the query
+
 $query = "INSERT INTO events (e_id, ename, edate, evenue, etime, eorg, contact) VALUES (?, ?, ?, ?, ?, ?, ?)";
 $stmt = $conn->prepare($query);
 $stmt->bind_param("sssssss", $e_id, $ename, $edate, $evenue, $etime, $eorg, $cont);
 
-// Set values from POST data
+
 $e_id = $_POST["id"];
 $ename = $_POST["ename"];
 $edate = $_POST["date"];
@@ -26,7 +26,7 @@ $etime = $_POST["time"];
 $eorg = $_POST["org"];
 $cont = $_POST["contact"];
 
-// Execute the query
+
 if ($stmt->execute()) {
     echo "Event added successfully";
 } else {
