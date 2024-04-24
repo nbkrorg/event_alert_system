@@ -25,7 +25,7 @@ public class MainActivity3 extends AppCompatActivity {
     EditText FullName, UserName, Email, Password, ConfirmPassword;
     Button SingnUp;
     String Fname, Uname, email, pwd, cpwd;
-    String url = "https://bhargava63.000webhostapp.com/dbconnect.php";
+    String url = "here you have to paste ur URL from where you are retrieving it..."
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
