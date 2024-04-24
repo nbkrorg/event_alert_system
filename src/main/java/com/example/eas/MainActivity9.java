@@ -22,7 +22,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MainActivity9 extends AppCompatActivity {
-    String url = "https://bhargava63.000webhostapp.com/history.php";
+    String url = "here you have to paste ur URL from where you are retrieving it..."
     LinearLayout eventLayout;
     Typeface audiowide;
 
