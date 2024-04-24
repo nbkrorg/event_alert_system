@@ -22,7 +22,7 @@ import java.util.Map;
 
 public class MainActivity2 extends AppCompatActivity {
     EditText Uname,pwd;
-    String url="https://bhargava63.000webhostapp.com/login.php";
+    String url="here you have to paste ur URL from where you are retrieving it..."
     String uname,pass;
     Button Login;
     @Override
