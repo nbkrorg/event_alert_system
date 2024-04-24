@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/textViewSignUpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Sign Up"
+        android:textColor="#FFFCFC"
+        android:textSize="48sp" />
+
+
+    <EditText
+        android:id="@+id/FullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSignUpTitle"
+        android:layout_marginTop="40dp"
+        android:background="#B8B3B3"
+        android:hint="Enter Fullname"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FullName"
+        android:layout_marginTop="40dp"
+        android:background="#B8B3B3"
+        android:hint="Username"
+        android:padding="10dp" />
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="#B8B3B3"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/UserName"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"/>
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="#B8B3B3"
+        android:inputType="textPassword"
+        android:layout_below="@id/Email"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="#B8B3B3"
+        android:inputType="textPassword"
+        android:layout_below="@id/Password"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"/>
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmPassword"
+        android:layout_marginTop="60dp"
+        android:width="100dp"
+        android:text="Sign Up" />
+
+    <!-- Already have an account? Log in -->
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Already have an account? Log in"
+        android:textColor="#F3EDED"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@drawable/h" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp"
+android:background="@color/black">
+
+<TextView
+    android:id="@+id/titleText1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="20dp"
+    android:fontFamily="@font/audiowide"
+    android:text="Edit Event"
+    android:textColor="@color/white"
+    android:textSize="48sp"
+    android:textStyle="bold" />
+
+<!-- Event ID Field -->
+<EditText
+    android:id="@+id/eventid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Event ID"
+    android:background="#B8B3B3"
+    android:inputType="number"
+    android:padding="10dp"
+    android:layout_marginTop="120dp"/>
+
+<!-- Event Name Field -->
+<EditText
+    android:id="@+id/eventname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Event Name"
+    android:background="#B8B3B3"
+    android:inputType="text"
+    android:padding="10dp"
+    android:layout_marginTop="200dp"/>
+
+<!-- Event Date Field -->
+<EditText
+    android:id="@+id/eventdate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Event Date (dd/mm/yyyy)"
+    android:background="#B8B3B3"
+    android:inputType="date"
+    android:padding="10dp"
+    android:layout_marginTop="280dp"/>
+
+<!-- Event Venue Field -->
+<EditText
+    android:id="@+id/eventvenue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Event Venue"
+    android:background="#B8B3B3"
+    android:inputType="text"
+    android:padding="10dp"
+    android:layout_marginTop="360dp"/>
+
+<!-- Event Time Field -->
+<EditText
+    android:id="@+id/eventtime"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Event Time (hh:mm)"
+    android:background="#B8B3B3"
+    android:inputType="time"
+    android:padding="10dp"
+    android:layout_marginTop="440dp"/>
+
+<!-- Organizing Club Field -->
+<EditText
+    android:id="@+id/organizingclub"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Organizing Club"
+    android:background="#B8B3B3"
+    android:inputType="text"
+    android:padding="10dp"
+    android:layout_marginTop="520dp"/>
+
+<!-- Contact Number Field -->
+<EditText
+    android:id="@+id/contactnumber"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Contact Number"
+    android:background="#B8B3B3"
+    android:inputType="phone"
+    android:padding="10dp"
+    android:layout_marginTop="600dp"/>
+
+<Button
+    android:id="@+id/update"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/contactnumber"
+    android:layout_marginTop="60dp"
+    android:width="100dp"
+    android:fontFamily="@font/audiowide"
+    android:text="Update" />
+
+</RelativeLayout>

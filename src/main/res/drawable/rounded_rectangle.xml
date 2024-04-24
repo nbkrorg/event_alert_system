@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- rounded_rectangle.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <gradient
+            android:startColor="#4CAF50"
+            android:endColor="#388E3C"
+            android:angle="45"/> <!-- Gradient colors and angle -->
+        <corners android:radius="20dp"/> <!-- Radius for rounded corners -->
+        <stroke
+            android:width="2dp"
+            android:color="#FFFFFF"/> <!-- Stroke width and color -->
+        <padding
+            android:left="8dp"
+            android:top="8dp"
+            android:right="8dp"
+            android:bottom="8dp"/> <!-- Padding to add space between shape and content -->
+        <size
+            android:width="200dp"
+            android:height="100dp"/> <!-- Size of the shape -->
+    </shape>
+</selector>

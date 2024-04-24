@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/titleText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/audiowide"
+        android:text="N.B.K.R.EVE"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        tools:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subtitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleText1"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Stay updated "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/figureImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitleText"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="-247dp"
+        android:src="@drawable/w" />
+
+    <Button
+        android:id="@+id/joinButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="220dp"
+        android:layout_marginBottom="66dp"
+        android:width="140dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Sign up" />
+
+    <TextView
+        android:id="@+id/subtitleText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitleText"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/audiowide"
+        android:text="with upcoming events"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/joinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="66dp"
+        android:width="140dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Login" />
+</RelativeLayout>

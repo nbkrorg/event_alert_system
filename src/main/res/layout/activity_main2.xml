@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/black">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:width="300dp"
+        android:height="80dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Upcoming"
+        android:textAlignment="center"
+        android:textColor="#EAE7E7"
+        android:textSize="48sp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="250dp"
+        android:layout_height="265dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/j" />
+
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:width="350dp"
+        android:height="50dp"
+        android:background="#A39F9F"
+        android:fontFamily="@font/audiowide"
+        android:hint="Enter your email"
+        android:textSize="22sp" />
+
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:width="350dp"
+        android:height="50dp"
+        android:background="#A39F9F"
+        android:fontFamily="@font/audiowide"
+        android:hint="Password"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:width="250dp"
+        android:background="#CE0F0F"
+        android:text="Login"
+        android:visibility="visible"
+        app:rippleColor="#CFC1C1"
+        app:strokeColor="#FF9800"
+        tools:visibility="visible" />
+
+
+</RelativeLayout>
