@@ -23,7 +23,7 @@ public class MainActivity6 extends AppCompatActivity {
     EditText eventid, eventname, eventdate, eventvenue, eventtime, organizingclub, contactnumber;
     Button Addevent;
     String eid, ename, edate, evenue, etime, oclub, cnumber;
-    String url = "https://bhargava63.000webhostapp.com/addeve.php";
+    String url = "here you have to paste ur URL from where you are retrieving it..."
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
